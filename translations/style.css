@@ -14,17 +14,19 @@ p {
   
   p.move-down {
     background-color: #f1c40f;
+    transform: translateX(5px);
     /* transform: translateY(50px); */
   }
   
-  
-  p:hover {
-    transform: translateX(5px);
-  }
-
   
   .transformed {
     background-color: #3498db;
     transform: scale(2, 4);
     transform-origin: 0 0; /* from top 0 left 0 */
+  }
+
+  .rotated {
+    transform: rotate(190deg)
+               scale(2);
+    transform-origin: right top;
   }
