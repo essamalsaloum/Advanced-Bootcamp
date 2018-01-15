@@ -1,0 +1,73 @@
+body {
+  margin: 0 0 0 0;
+  background-color: black;
+  animation: skychange 6s ease-in-out 0s infinite;
+}
+
+.grass {
+  background: green;
+  height: 600px;
+  width: 100%;
+  position: absolute;
+}
+
+.sun {
+  background: #f1c40f;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation: suncolor 6s linear 0s infinite;
+}
+
+@keyframes skychange {
+  0% {
+    background-color: black;
+  }
+  5% {
+    background-color: orangered;
+  }
+  20% {
+    background-color: #87ceeb;
+  }
+  50% {
+    background-color: #44bded;
+  }
+  80% {
+    background-color: #87ceeb;
+  }
+  95% {
+    background-color: orangered;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes suncolor {
+  0% {
+    background-color: orangered;
+    transform: translate(0, 200px);
+  }
+  10% {
+    background-color: orange;
+    transform: translate(180px, 125px);
+  }
+  25% {
+    transform: translate(450px, 0px);
+  }
+  50% {
+    background-color: yellow;
+    transform: translate(900px, -100px);
+  }
+  75% {
+    transform: translate(1300px, 0px);
+  }
+  90% {
+    background-color: orange;
+    transform: translate(1520px, 125px);
+  }
+  100% {
+    background-color: orangered;
+    transform: translate(1720px, 200px);
+  }
+}
