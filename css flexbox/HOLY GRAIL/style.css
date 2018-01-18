@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  background: darkgrey;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-basis: 500px;
+  flex-grow: 2;
+}
+
+article {
+  flex-grow: 7;
+  border-radius: 10px;
+  padding: 10px;
+  background: white;
+  margin: 5px;
+}
+
+nav {
+  flex-basis: 100px;
+  order: -1;
+  background: grey;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+aside {
+  flex-grow: 1;
+  flex-basis: 100px;
+  background: blue;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+
+header {
+  height: 40px;
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  height: 40px;
+  background: green;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin: 5px;
+}
