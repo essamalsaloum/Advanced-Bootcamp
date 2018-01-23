@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background: grey;
+}
+
+span {
+  font: 40px monospace;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  background: grey;
+}

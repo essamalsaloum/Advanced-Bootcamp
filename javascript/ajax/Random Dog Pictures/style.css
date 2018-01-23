@@ -1,0 +1,13 @@
+img {
+    height: 70vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    margin: 20px;
+  }
